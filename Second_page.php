@@ -50,7 +50,7 @@ require_once 'C_token.php';
 <div class="box">
 <?php
         if (session_id() == '' || !isset($_SESSION['logeduser'])) { 
-          header('Location: ./index.php');
+          header('Location: ./Admin_log.php');
       ?>
       <?php
         } 
